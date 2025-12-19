@@ -6,7 +6,61 @@
   <title>Cass Shea – Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.project {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.project img,
+.project video {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+button.toggle {
+  background: none;
+  border: 1px solid #222;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+button.toggle:hover {
+  background: #222;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
 
 <header>
   <h1>Cass Shea</h1>
